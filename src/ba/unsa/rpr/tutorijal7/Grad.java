@@ -12,6 +12,11 @@ public class Grad implements Serializable {
         setBrojStanovnika(0);
         setTemperature(new double[1000]);
     }
+    public Grad(String naziv, int brStanovnika, double[] temp){
+        setNaziv(naziv);
+        setBrojStanovnika(brStanovnika);
+        setTemperature(temp);
+    }
 
     public String getNaziv() {
         return naziv;
