@@ -16,6 +16,13 @@ public class Drzava implements Serializable {
         setJedinicaZaPovrsinu("");
         setGlavniGrad(new Grad());
     }
+    public Drzava(String naziv, int brojStanovnika, double povrsina, String jedinicaZaPovrsinu, Grad glavniGrad) {
+        setNaziv(naziv);
+        setBrojStanovnika(brojStanovnika);
+        setPovrsina(povrsina);
+        setJedinicaZaPovrsinu(jedinicaZaPovrsinu);
+        setGlavniGrad(glavniGrad);
+    }
 
     public String getNaziv() {
         return naziv;
