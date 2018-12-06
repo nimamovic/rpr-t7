@@ -2,7 +2,7 @@
 <drzave>
     <drzava stanovnika="3500000">
         <naziv>Bosna i Hercegovina</naziv>
-        <glavnigrad brojStanovnika="400000">
+        <glavnigrad brojStanovnika="200000">
             <naziv>Sarajevo</naziv>
         </glavnigrad>
         <povrsina jedinicaZaPovrsinu="km2">51129</povrsina>
